@@ -1,7 +1,7 @@
-ul{
+nav > ul{
     display: flex;
 }
-li{
+nav li{
     margin: 5px;
     list-style: none;
 }
@@ -9,8 +9,20 @@ li a{
     color: black;
     transition: .6s;
     text-decoration: none;
+    margin: 5px;
+    padding: 5px;
 }
 li a:hover{
     color: rgb(255, 22, 22);
     text-decoration: underline;
+    background-color: rgb(95, 158, 158);
+}
+nav li .drop{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 140px;
+}
+nav li:hover .drop{
+    display: block;
 }
