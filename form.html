@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <article>
+            <h2>Please fill up the form</h2>
+            <form action="#">
+                <label for="name">
+                    Your name: <br><input type="text" name="name" placeholder="Type your name ?" id="">
+                </label>
+                <label for="email">
+                    Your email: <br><input type="email" name="email" placeholder="Type your email ?" id="">
+                </label>
+                <label for="phn">
+                    Your phone: <br>
+                    <input type="number" name="phn" placeholder="Type your number ?" id="" >
+                </label>
+                <fieldset>
+                    <legend>Your choise</legend>
+                    <label for="pitha"> 
+                        <input type="radio" name="pitha" id="">Chitoi</label>
+                    <label for="pitha">
+                        <input type="radio" name="pitha" id="">Vapa
+                    </label>
+                    <label for="pitha">
+                        <input type="radio" name="pitha" id="">Milk-Chitoi</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Vorta</legend>
+                    <label for="sori">
+                        <input type="checkbox" name="vorta" id="">Sorisa
+                    </label>
+                    <label for="mas">
+                        <input type="checkbox" name="vorta" id="">Mas
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="">Sutki
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Type Your Comment</legend>
+                    <textarea name="" id="" cols="100%" rows="5"></textarea>
+                </fieldset>
+                <br>
+                <input type="reset" value="Information Delete">
+                <input type="submit" value="Information Done">
+            </form>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
