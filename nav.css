@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+}
+li{
+    margin: 5px;
+    list-style: none;
+}
+li a{
+    color: black;
+    transition: .6s;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(255, 22, 22);
+    text-decoration: underline;
+}
